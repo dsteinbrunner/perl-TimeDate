@@ -1,4 +1,3 @@
-
 package Date::Language;
 
 use     strict;
@@ -87,7 +86,7 @@ __END__
 
 =head1 NAME
 
-Date::Language - Language specific date formating and parsing
+Date::Language - Language specific date formatting and parsing
 
 =head1 SYNOPSIS
 
