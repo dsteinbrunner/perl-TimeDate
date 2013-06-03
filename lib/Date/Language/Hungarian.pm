@@ -5,7 +5,7 @@
 # This is a just-because-I-stumbled-across-it
 # -and-my-wife-is-Hungarian release: if Graham or
 # someone adds to docs to Date::Format, I'd be
-# glad to correct bugs and extend as neeed.
+# glad to correct bugs and extend as needed.
 #
 
 package Date::Language::Hungarian;
@@ -50,9 +50,9 @@ use base "Date::Language";
 use vars qw( @DoW @DoWs @MoY @MoYs @AMPM @Dsuf %MoY %DoW $VERSION);
 $VERSION = "1.01";
 
-@DoW = qw(Vasárnap Hétfõ Kedd Szerda Csütörtök Péntek Szombat);
-@MoY = qw(Január Február Március Április Május Június
-	  Július Augusztus Szeptember Október November December);
+@DoW = qw(Vasï¿½rnap Hï¿½tfï¿½ Kedd Szerda Csï¿½tï¿½rtï¿½k Pï¿½ntek Szombat);
+@MoY = qw(Januï¿½r Februï¿½r Mï¿½rcius ï¿½prilis Mï¿½jus Jï¿½nius
+	  Jï¿½lius Augusztus Szeptember Oktï¿½ber November December);
 @DoWs = map { substr($_,0,3) } @DoW;
 @MoYs = map { substr($_,0,3) } @MoY;
 @AMPM = qw(DE. DU.);
